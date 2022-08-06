@@ -1,0 +1,181 @@
+{
+  "stations": [
+    {
+      "stationCode": "CHN",
+      "stationName": "CHENNAI"
+    },
+    {
+      "stationCode": "SLM",
+      "stationName": "SALEM"
+    },
+    {
+      "stationCode": "BLR",
+      "stationName": "BANGALORE"
+    },
+    {
+      "stationCode": "KRN",
+      "stationName": "KURNOOL"
+    },
+    {
+      "stationCode": "HYB",
+      "stationName": "HYDERABAD"
+    },
+    {
+      "stationCode": "NGP",
+      "stationName": "NAGPUR"
+    },
+    {
+      "stationCode": "ITJ",
+      "stationName": "ITARSI"
+    },
+    {
+      "stationCode": "BPL",
+      "stationName": "BHOPAL"
+    },
+    {
+      "stationCode": "AGA",
+      "stationName": "AGRA"
+    },
+    {
+      "stationCode": "NDL",
+      "stationName": "NEW DELHI"
+    },
+    {
+      "stationCode": "TVC",
+      "stationName": "TRIVANDRUM"
+    },
+    {
+      "stationCode": "SRR",
+      "stationName": "SHORANUR"
+    },
+    {
+      "stationCode": "MAQ",
+      "stationName": "MANGALORE"
+    },
+    {
+      "stationCode": "MAO",
+      "stationName": "MADGAON"
+    },
+    {
+      "stationCode": "PNE",
+      "stationName": "PUNE"
+    },
+    {
+      "stationCode": "PTA",
+      "stationName": "PATNA"
+    },
+    {
+      "stationCode": "NJP",
+      "stationName": "NEW JALPAIGURI"
+    },
+    {
+      "stationCode": "GHY",
+      "stationName": "GUWAHATI"
+    }
+  ],
+  "paths": [
+    {
+      "sourceStation": "CHN",
+      "destinationStation": "SLM",
+      "distance": 350
+    },
+    {
+      "sourceStation": "SLM",
+      "destinationStation": "BLR",
+      "distance": 200
+    },
+    {
+      "sourceStation": "BLR",
+      "destinationStation": "KRN",
+      "distance": 350
+    },
+    {
+      "sourceStation": "KRN",
+      "destinationStation": "HYB",
+      "distance": 300
+    },
+    {
+      "sourceStation": "HYB",
+      "destinationStation": "NGP",
+      "distance": 400
+    },
+    {
+      "sourceStation": "NGP",
+      "destinationStation": "ITJ",
+      "distance": 300
+    },
+    {
+      "sourceStation": "ITJ",
+      "destinationStation": "BPL",
+      "distance": 100
+    },
+    {
+      "sourceStation": "BPL",
+      "destinationStation": "AGA",
+      "distance": 500
+    },
+    {
+      "sourceStation": "AGA",
+      "destinationStation": "NDL",
+      "distance": 200
+    },
+    {
+      "sourceStation": "TVC",
+      "destinationStation": "SRR",
+      "distance": 300
+    },
+    {
+      "sourceStation": "SRR",
+      "destinationStation": "MAQ",
+      "distance": 300
+    },
+    {
+      "sourceStation": "MAQ",
+      "destinationStation": "MAO",
+      "distance": 400
+    },
+    {
+      "sourceStation": "MAO",
+      "destinationStation": "PNE",
+      "distance": 400
+    },
+    {
+      "sourceStation": "PNE",
+      "destinationStation": "HYB",
+      "distance": 600
+    },
+    {
+      "sourceStation": "BPL",
+      "destinationStation": "PTA",
+      "distance": 1000
+    },
+    {
+      "sourceStation": "PTA",
+      "destinationStation": "NJP",
+      "distance": 400
+    },
+    {
+      "sourceStation": "NJP",
+      "destinationStation": "GHY",
+      "distance": 500
+    }
+  ],
+  "trains": [
+    {
+      "trainCode": "TRAIN_A",
+      "trainName": "Train A",
+      "route": ["CHN", "SLM", "BLR", "KRN", "HYB", "NGP", "ITJ", "BPL", "AGA", "NDL"]
+    },
+    {
+      "trainCode": "TRAIN_B",
+      "trainName": "Train B",
+      "route": ["TVC", "SRR", "MAQ", "MAO", "PNE", "HYB", "NGP", "ITJ", "BPL", "PTA", "NJP", "GHY"]
+    }
+  ],
+  "mergerStation": "HYB",
+  "engineBogieCode": "ENGINE",
+  "trainCodePrefix": "TRAIN_",
+  "mergerStationArrivalOpStr": "ARRIVAL",
+  "mergerStationDepartureOpStr": "DEPARTURE",
+  "journeyEndedMessage": "JOURNEY_ENDED"
+}
