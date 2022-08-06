@@ -13,4 +13,5 @@ Internally both the scripts run the following commands
 
 
  * `mvn clean install -DskipTests assembly:single -q` - This will create a jar file in the `target` folder.
- * `java -jar target/jarName.jar sample_input/input1.txt` - This will execute the jar file passing in the sample input file and the configuration file as command line arguments
+ * `java -jar target/jarName.jar sample_input/input1.txt` - This will execute the jar file passing in the sample input file as command line argument The default configuration picked from '/config' path with the name 'application-config.json'
+ * We can also pass the configuration file as a custom path - * `java -jar target/jarName.jar sample_input/input1.txt config/application-config.json` - This will execute the jar file passing in the sample input file and the configuration file as command line arguments
