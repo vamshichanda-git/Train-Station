@@ -1,0 +1,27 @@
+{
+  "stations": [
+    {
+      "stationCode": "CHN",
+      "stationName": "CHENNAI"
+    }
+  ],
+  "paths": [
+    {
+      "sourceStation": "CHN",
+      "destinationStation": "CHN",
+      "distance": 0
+    }
+  ],
+  "trains": [
+    {
+      "trainCode": "TRAIN_A",
+      "trainName": "Train A",
+      "route": ["CHN"]
+    }
+  ],
+  "mergerStation": "INVALID",
+  "engineBogieCode": "ENGINE",
+  "trainCodePrefix": "TRAIN_",
+  "mergerStationArrivalOpStr": "ARRIVAL",
+  "mergerStationDepartureOpStr": "DEPARTURE"
+}
